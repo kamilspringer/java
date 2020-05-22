@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wydzialy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="zad1.xsd">
+    <wydzial wydzialID="wydzial1">
+        <nazwa>Wydzial A</nazwa>
+        <adres>
+            <ulica>ulica</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>12-123</kodPocztowy>
+            <miasto>Poznan</miasto>
+        </adres>
+        <adres>
+            <ulica>ulica</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>12-123</kodPocztowy>
+            <miasto>Poznan</miasto>
+        </adres>
+        <pracownik pracownikID="pracownik1-1">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>naukowy</typ>
+            <adres>
+                <ulica>ulica</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>12-123</kodPocztowy>
+                <miasto>Poznan</miasto>
+            </adres>
+        </pracownik>
+        <pracownik pracownikID="pracownik1-2">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>administracyjny</typ>
+            <adres>
+                <ulica>ulica</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>12-123</kodPocztowy>
+                <miasto>Poznan</miasto>
+            </adres>
+        </pracownik>
+        <przedmiot przedmiotID="przedmiot1-1" wykladowcaIDs="pracownik1-1">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>10</liczbaUczesntikow>
+        </przedmiot>
+        <przedmiot przedmiotID="przedmiot1-2" wykladowcaIDs="pracownik1-1 pracownik1-2">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>10</liczbaUczesntikow>
+        </przedmiot>
+    </wydzial>
+    <wydzial wydzialID="wydzial2">
+        <nazwa>Wydzial 2</nazwa>
+        <adres>
+            <ulica>ulica</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>12-123</kodPocztowy>
+            <miasto>Poznan</miasto>
+        </adres>
+        <pracownik pracownikID="pracownik2-1">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>administracyjny</typ>
+            <adres>
+                <ulica>ulica</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>12-123</kodPocztowy>
+                <miasto>Poznan</miasto>
+            </adres>
+        </pracownik>
+        <pracownik pracownikID="pracownik2-2">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>techniczny</typ>
+            <adres>
+                <ulica>ulica</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>12-123</kodPocztowy>
+                <miasto>Poznan</miasto>
+            </adres>
+        </pracownik>
+        <przedmiot przedmiotID="przedmiot2-1" wykladowcaIDs="pracownik2-1 pracownik2-1">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>8</liczbaUczesntikow>
+        </przedmiot>
+    </wydzial>
+</wydzialy>
